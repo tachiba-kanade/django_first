@@ -55,3 +55,14 @@ so summing up leaderboards updates if someone tops scores meaning  we have to di
 django-admin startproject my_project .
 
  Notice the  . (space followed by a period) at the end of the command. This tells Django to install the project files directly into your current folder instead of nesting them inside a secondary, redundant subdirectory.
+
+
+1. pip install psycopg2-binary
+Django requires a Python database adapter to talk to PostgreSQL
+
+2. Configure Django settings.py:
+   Open your Django project's main settings.py file. Look for the DATABASES dictionary (which uses SQLite by default) and replace it with your PostgreSQL
+
+3. python manage.py migrate
+
+4. Once the tables successfully populate, your connection is fully active. You can optionally run python manage.py createsuperuser to set up an administrative login.
