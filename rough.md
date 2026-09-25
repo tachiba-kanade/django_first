@@ -47,3 +47,11 @@ so summing up leaderboards updates if someone tops scores meaning  we have to di
 
 - setup the database with primary key as id
 - other fields - name, game (dropdown option), score, total games played(that particular game )
+
+
+
+
+- 
+django-admin startproject my_project .
+
+ Notice the  . (space followed by a period) at the end of the command. This tells Django to install the project files directly into your current folder instead of nesting them inside a secondary, redundant subdirectory.
