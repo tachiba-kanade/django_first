@@ -435,13 +435,3 @@ The project is complete when a user can:
 9. Confirm that all application data is stored in PostgreSQL.
 
 ---
-
-# First Task
-
-Do not start with the models.
-
-Your first task is simply:
-
-Create the Django project, create the Django application, connect it to PostgreSQL, run the initial migrations, and verify that the development server works.
-
-Once that works, move on to the data models.
