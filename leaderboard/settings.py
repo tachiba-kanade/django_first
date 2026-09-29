@@ -51,8 +51,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
-ROOT_URLCONF = 'leaderboard.urls'
+# as it is the only project so settings has urls as url is for whole project so it is in root already
+ROOT_URLCONF = 'urls'
 
 TEMPLATES = [
     {
